@@ -10,5 +10,7 @@ package com.java.revision;
  * @author Bhavin
  */
 public class Book {
-    
+    String Title;
+    int BookNumber;
+    String Author; 
 }
