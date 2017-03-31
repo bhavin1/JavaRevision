@@ -12,5 +12,43 @@ package com.java.revision;
 public class Book {
     String Title;
     int BookNumber;
-    String Author; 
+    String Author;
+
+    public Book(String Title, int BookNumber, String Author) {
+        this.Title = Title;
+        this.BookNumber = BookNumber;
+        this.Author = Author;
+    }
+
+    public void setTitle(String Title) {
+        this.Title = Title;
+    }
+
+    public void setAuthor(String Author) {
+        this.Author = Author;
+    }
+
+    public void setBookNumber(int BookNumber) {
+        this.BookNumber = BookNumber;
+    }
+
+    public String getTitle() {
+        return Title;
+    }
+
+    public String getAuthor() {
+        return Author;
+    }
+
+    public int getBookNumber() {
+        return BookNumber;
+    }
+
+    @Override
+    public String toString() {
+        String str;
+        return str = Title + Author + BookNumber;
+    }
+    
+    
 }
